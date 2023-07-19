@@ -3,6 +3,11 @@ index.html을 위한 javascript code
 */
 console.log('index.js');
 
+function logout(username){
+    //logout 처리
+    console.log('로그아웃처리' + username);
+};
+
 function login(username, password) {
     $.ajax({
         type : 'post',           // 타입 (get, post, put 등등)
